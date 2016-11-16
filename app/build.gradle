@@ -18,6 +18,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    productFlavors {
+        free {
+            applicationId "com.rahuljanagouda.builditbigger.free"
+        }
+        paid {
+            applicationId "com.rahuljanagouda.builditbigger.paid"
+        }
+    }
+
+    sourceSets { free { java.srcDirs = ['src/free/java', 'src/paid/java'] } }
 }
 
 dependencies {

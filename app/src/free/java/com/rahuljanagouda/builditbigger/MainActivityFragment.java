@@ -11,6 +11,10 @@ import com.google.android.gms.ads.AdView;
 
 
 /**
+ * Created by rahuljanagouda on 17/11/16.
+ */
+
+/**
  * A placeholder fragment containing a simple view.
  */
 public class MainActivityFragment extends Fragment {
