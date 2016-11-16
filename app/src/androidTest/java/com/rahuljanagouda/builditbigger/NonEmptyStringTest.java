@@ -3,9 +3,6 @@ package com.rahuljanagouda.builditbigger;
 import android.test.AndroidTestCase;
 import android.util.Log;
 
-/**
- * Created by Matteo on 30/06/2015.
- */
 public class NonEmptyStringTest extends AndroidTestCase {
 
     private static final String LOG_TAG = "NonEmptyStringTest";
@@ -17,7 +14,7 @@ public class NonEmptyStringTest extends AndroidTestCase {
         // You can test this from androidTest -> Run 'All Tests'
         Log.v("NonEmptyStringTest", "Running NonEmptyStringTest test");
         String result = null;
-        java.builditbigger.EndpointsAsyncTask endpointsAsyncTask = new java.builditbigger.EndpointsAsyncTask(getContext(), null);
+        com.rahuljanagouda.builditbigger.EndpointsAsyncTask endpointsAsyncTask = new com.rahuljanagouda.builditbigger.EndpointsAsyncTask(getContext(), null);
         endpointsAsyncTask.execute();
         try {
             result = endpointsAsyncTask.get();
