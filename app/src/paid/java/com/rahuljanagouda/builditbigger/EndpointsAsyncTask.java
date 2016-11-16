@@ -11,7 +11,6 @@ import com.example.rahuljanagouda.myapplication.backend.jokeApi.JokeApi;
 import com.example.rahuljanagouda.myapplication.backend.jokeApi.model.JokeBean;
 import com.google.api.client.extensions.android.http.AndroidHttp;
 import com.google.api.client.extensions.android.json.AndroidJsonFactory;
-import com.rahuljanagouda.builditbigger.R;
 import com.rahuljanagouda.myandroidlibrary.JokeDisplayActivity;
 
 import java.io.IOException;

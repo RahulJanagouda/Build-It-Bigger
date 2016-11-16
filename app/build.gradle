@@ -28,7 +28,15 @@ android {
         }
     }
 
-    sourceSets { free { java.srcDirs = ['src/free/java', 'src/paid/java'] } }
+    sourceSets {
+        free {
+            java.srcDirs = ['src/free/java']
+        }
+        paid {
+            java.srcDirs = ['src/paid/java']
+        }
+    }
+//    sourceSets { free { java.srcDirs = ['src/free/java', 'src/paid/java'] } }
 }
 
 dependencies {
